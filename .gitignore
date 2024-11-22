@@ -1,0 +1,48 @@
+# Binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace file
+go.work
+
+# Dependencies
+/vendor/
+
+# Build directories
+/build/
+bin/
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.swp
+*~
+
+# Go-specific build artifacts
+*.a
+*.prof
+*.out
+
+# Coverage output
+*.coverprofile
+
+# Testing artifacts
+*.test
+
+# Docker
+.docker/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# JetBrains IDEs (IntelliJ IDEA, GoLand)
+.idea/
+
+# VS Code settings
+.vscode/
