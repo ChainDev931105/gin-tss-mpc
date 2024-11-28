@@ -33,6 +33,7 @@ var walletDataStore sync.Map // A concurrent map to store wallet data by address
 // It initializes key shares, participant IDs, and performs the key generation process.
 func CreateWallet() (string, error) {
 	// Define threshold and participants for the wallet
+	// MODIFY ME
 	testThreshold := 2
 	testParticipants := 4
 

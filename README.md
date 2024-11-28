@@ -30,5 +30,11 @@ curl "http://localhost:8080/sign?data=hello&wallet=0xGeneratedWalletAddress"
 
 ## Notes
 
-- Replace placeholder logic for TSS wallet generation and signing with actual `tss-lib` code.
-- Extend the codebase as necessary for production use.
+Please modify this part.
+``` go
+    // wallet.go#L36
+
+	// MODIFY ME
+	testThreshold := 2
+	testParticipants := 4
+```
