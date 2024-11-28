@@ -6,8 +6,6 @@ import (
 )
 
 func main() {
-	// tssGroup = tss.GetTSSGroup()
-
 	// Initialize the Gin router
 	router := gin.Default()
 
